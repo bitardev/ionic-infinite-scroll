@@ -1,26 +1,28 @@
-This is a starter template for [Ionic](http://ionicframework.com/docs/) projects.
+## IONIC Infinite Scroller (Android % iOS)
 
-## How to use this template
+This is a simple application developed using IONIC ANGULAR.
 
-*This template does not work on its own*. The shared files for each starter are found in the [ionic2-app-base repo](https://github.com/ionic-team/ionic2-app-base).
+## Table of Contents
+ - [Description](#description)
+ - [Getting Started](#getting-started)
+ - [App Preview](#app-preview) 
 
-To use this template, either create a new ionic project using the ionic node.js utility, or copy the files from this repository into the [Starter App Base](https://github.com/ionic-team/ionic2-app-base).
+## Description
 
-### With the Ionic CLI:
+Have created this application to demonstrate how to use IONIC Infinite Scroll. This application loads all the Countries with there flag.
 
-Take the name after `ionic2-starter-`, and that is the name of the template to be used when using the `ionic start` command below:
+## Getting Started
 
-```bash
-$ sudo npm install -g ionic cordova
-$ ionic start myBlank blank
-```
+* Clone this repository: `git clone https://github.com/thanveerahamed/ionic-infinite-scroll`.
+* Run `npm install` from the project root.
+* Install the ionic CLI (`npm install -g ionic`)
+* Run `ionic serve` in a terminal from the project root.
+* Cheers!!
 
-Then, to run it, cd into `myBlank` and run:
+## App Preview
 
-```bash
-$ ionic cordova platform add ios
-$ ionic cordova run ios
-```
+All app preview screenshots were taken by running `ionic serve --lab` on Chrome Browser.
 
-Substitute ios for android if not on a Mac.
+- Home Page
 
+  <img src="resources/screenshots/home.png" alt="Home Page">
